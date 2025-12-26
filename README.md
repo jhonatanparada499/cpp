@@ -1,3 +1,2 @@
-# C++ Self-Training
-
+# Notes from C++ Primer 5th Edition
 
