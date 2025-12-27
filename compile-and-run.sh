@@ -1,0 +1,1 @@
+g++ prog1.cpp; ./a.out
