@@ -1,3 +1,4 @@
 # Notes from C++ Primer 5th Edition
 
-Current page: 9
+Book page: 11
+PDF page: Book page + 29
