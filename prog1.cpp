@@ -1,27 +1,15 @@
 #include <iostream>
+#include "Sales_item.h"
 
 int main()
 {
-  int sum = 0;
-  int firstNumber = 0;
-  int lastNumber = 0;
-  int val = 0;
-
-  // std::cout << "Enter first number: ";
-  // std::cin >> firstNumber;
-  //
-  // std::cout << "Enter last number: ";
-  // std::cin >> lastNumber;
-  //
-  // val = lastNumber - firstNumber;
-
-  while (std::cin >> val) {
-    sum += val;
+  Sales_item item1, item2;
+  std::cin >> item1 >> item2;
+  if (item1.isbn() == item2.isbn()) {
+    std::cout << item1 + item2 << std::endl;
+    return 0;
   }
-
-  std::cout << "The sum is "
-    << sum
+  std::cerr << "Data must refer to same ISBN"
     << std::endl;
-
-  return 0;
+  return -1;
 }
