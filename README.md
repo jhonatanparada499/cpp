@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 49 Initializers
+Book page: 50 Initializers
