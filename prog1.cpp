@@ -7,9 +7,14 @@ std::string b;
 extern int external;
 
 int main() {
-  std::string i;
+  // std::string i;
   unsigned u1 = -1, u2 = -10;
-  std::cout << external << '\n';
-  std::cout << "Who goes with F\145rgus?\012" << std::endl;
+  signed u3 = 1;
+  int u4 = 2.0;
+
+  int i, &ri = i;
+  i = 5;
+  ri = 10;
+  std::cout << &i << " " << ri << std::endl;
   return 0;
 }
