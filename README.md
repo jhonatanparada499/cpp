@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 57 Pointers to Pointers
+Book page: 58 Pointers to Pointers
