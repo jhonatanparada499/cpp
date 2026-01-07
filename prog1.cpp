@@ -14,7 +14,6 @@ int main() {
 
   void *p1 = &z;
   int *p2 = u4;
-  long *lp = &z;
   long *p3 = nullptr;
   double *p4 = NULL;
 
