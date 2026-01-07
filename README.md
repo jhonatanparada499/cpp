@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 55 Assignment and Pointers
+Book page: 56 Assignment and Pointers
