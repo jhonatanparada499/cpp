@@ -12,11 +12,12 @@ int main() {
   signed &u3 = z;
   int *u4 = &u3;
 
-  int *p1 = 0;
-  int *p2 = nullptr;
-  int *p3 = NULL;
-  p1 = &z;
+  void *p1 = &z;
+  int *p2 = u4;
+  long *lp = &z;
+  long *p3 = nullptr;
+  double *p4 = NULL;
 
-  std::cout << u4 << std::endl;
+  std::cout << p2 << std::endl;
   return 0;
 }
