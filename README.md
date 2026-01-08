@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 64 Top-Level const
+Book page: 65 Top-Level const
