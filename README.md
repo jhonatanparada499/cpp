@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 59 Initialization and Const
+Book page: 60 Initialization and Const
