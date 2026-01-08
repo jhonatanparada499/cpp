@@ -17,6 +17,9 @@ int main() {
   long *p3 = nullptr;
   double *p4 = NULL;
 
-  std::cout << p2 << std::endl;
+  double dval = 3.14;
+  const int &ri = dval;
+
+  std::cout << external << std::endl;
   return 0;
 }
