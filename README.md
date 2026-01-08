@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 65 Exercise Section
+Book page: 65 constexpr and Constant Expressions
