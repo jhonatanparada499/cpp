@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 70 The decltype Type Specifier
+Book page: 71 The decltype Type Specifier
