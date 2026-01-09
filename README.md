@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 69 Compound Types, const, and auto
+Book page: 70 Compound Types, const, and auto
