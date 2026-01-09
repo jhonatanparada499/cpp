@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 68   The auto Type Specifier
+Book page: 69 The auto Type Specifier
