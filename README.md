@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 67 Type aliases
+Book page: 68 Type aliases
