@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 78 A Brief Introduction to the Preprocessor
+Book page: 79 A Brief Introduction to the Preprocessor
