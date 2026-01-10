@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 75 Reading Data into Sales_data
+Book page: 75 Printing the Sum of two struct objects
