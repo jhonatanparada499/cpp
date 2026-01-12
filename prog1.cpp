@@ -9,9 +9,9 @@ using std::endl;
 using std::string;
 
 int main() {
-  string word;
-  while (cin >> word) // read until end-of-file
-    // write each word followed by a new line
-    cout << "You typed: " << word << endl;
+  string line;
+  while (getline(cin, line)) // read line until end-of-file
+    // write each line followed by a new line
+    cout << "You typed: " << line << endl;
   return 0;
 }
