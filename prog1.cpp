@@ -1,22 +1,17 @@
-#include "Sales_data.h"
-#include <iostream>
+// #include "Sales_data.h"
 
+#include <iostream>
 using std::cin;
 using std::cout;
+using std::endl;
+
+#include <string>
+using std::string;
 
 int main() {
-  Sales_data data1, data2;
-
-  cout << "Enter book ISBN: ";
-  cin >> data1.bookNo;
-  cout << "Enter units sold: ";
-  cin >> data1.unitsSold;
-
-  double price = 0;
-  cout << "Enter price: ";
-  cin >> price;
-
-  data1.revenue = data1.unitsSold * price;
-
+  string word;
+  while (cin >> word) // read until end-of-file
+    // write each word followed by a new line
+    cout << "You typed: " << word << endl;
   return 0;
 }
