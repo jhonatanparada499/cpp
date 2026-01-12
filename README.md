@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 85 Operations on strings
+Book page: 86 Operations on strings
