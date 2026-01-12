@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 90 The string empty and size Operations
+Book page: 91 Dealing with the Characters in a string
