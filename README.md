@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: Library string Type
+Book page: 84 Library string Type
