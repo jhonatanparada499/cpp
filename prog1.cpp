@@ -1,24 +1,22 @@
-// #include "Sales_item.h"
+#include "Sales_data.h"
 #include <iostream>
-#include <string>
 
-std::string b;
-extern int external;
-
-int z = 0;
-signed &u3 = z;
-int *u4 = &u3;
-unsigned u1 = -1, u2 = -10;
-constexpr int *p2 = &z;
-const int &ri = 0;
+using std::cin;
+using std::cout;
 
 int main() {
-  std::cout << external << std::endl;
+  Sales_data data1, data2;
+
+  cout << "Enter book ISBN: ";
+  cin >> data1.bookNo;
+  cout << "Enter units sold: ";
+  cin >> data1.unitsSold;
+
+  double price = 0;
+  cout << "Enter price: ";
+  cin >> price;
+
+  data1.revenue = data1.unitsSold * price;
+
   return 0;
 }
-
-struct Sales_data {
-  std::string bookNo;
-  unsigned unitsSold = 0;
-  double revenue;
-};
