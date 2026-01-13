@@ -5,7 +5,7 @@
 #include <iostream>
 using std::cin;
 using std::cout;
-using std::endl;
+//  using std::endl;
 
 #include <string>
 using std::string;
@@ -14,6 +14,18 @@ using std::string;
 using std::vector;
 
 int main() {
-  vector<string> v1 = {"a", "b"};
+  vector<unsigned> scores(11, 0);
+
+  unsigned grade;
+  while (cin >> grade) {
+    if (grade <= 100) {
+      scores[grade / 10]++;
+    }
+  }
+
+  for (unsigned grade : scores) {
+    cout << grade << " ";
+  }
+
   return 0;
 }
