@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 104 Subscripting Does Not Add Elements
+Book page: 105 Subscripting Does Not Add Elements
