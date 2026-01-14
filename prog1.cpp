@@ -9,12 +9,14 @@ using std::endl;
 #include <string>
 using std::string;
 
-// #include <vector>
-// using std::vector;
+#include <vector>
+using std::vector;
 
 int main() {
-  const string my_string("Hello World");
-  for (auto i = my_string.begin(); i != my_string.end() && !isspace(*i); ++i) {
+  string my_string("Hello World");
+
+  vector<string> text = {"Hello", "World", "", "Another paragraph"};
+  for (auto i = text.cbegin(); i != text.cend() && !i->empty(); ++i) {
     //*i = toupper(*i);
     cout << *i << endl;
   }
