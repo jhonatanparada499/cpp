@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 108 Iterator Types
+Book page: 109 Iterator Types
