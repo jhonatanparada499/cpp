@@ -13,12 +13,24 @@ using std::string;
 using std::vector;
 
 int main() {
-  string my_string("Hello World");
+  vector<string> text = {"a", "b", "c"};
+  auto beg = text.begin();
+  auto end = text.end();
+  auto mid = beg + (end - beg) / 2;
 
-  vector<string> text = {"Hello", "World", "", "Another paragraph"};
-  for (auto i = text.cbegin(); i != text.cend() && !i->empty(); ++i) {
-    //*i = toupper(*i);
-    cout << *i << endl;
+  string sought = "b";
+  while (mid != end && *mid != sought) {
+    if (*mid < sought) {
+      beg = mid + 1;
+    } else {
+      end = mid;
+    }
+
+    mid = beg + (end - beg) / 2;
+  }
+
+  if (*mid == sought) {
+    cout << "elemnt found!" << endl;
   }
 
   return 0;
