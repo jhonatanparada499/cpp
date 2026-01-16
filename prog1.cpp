@@ -2,7 +2,7 @@
 
 #include <cctype>
 #include <iostream>
-// using std::cin;
+using std::cin;
 using std::cout;
 using std::endl;
 
@@ -13,25 +13,8 @@ using std::string;
 using std::vector;
 
 int main() {
-  vector<string> text = {"a", "b", "c"};
-  auto beg = text.begin();
-  auto end = text.end();
-  auto mid = beg + (end - beg) / 2;
-
-  string sought = "b";
-  while (mid != end && *mid != sought) {
-    if (*mid < sought) {
-      beg = mid + 1;
-    } else {
-      end = mid;
-    }
-
-    mid = beg + (end - beg) / 2;
-  }
-
-  if (*mid == sought) {
-    cout << "elemnt found!" << endl;
-  }
+  int a[] = {1, 2, 3};
+  decltype(a) b = {};
 
   return 0;
 }
