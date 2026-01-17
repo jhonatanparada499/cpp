@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 119 Pointers Are Iterators
+Book page: 119 Pointer Arithmetic
