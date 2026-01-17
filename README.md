@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 128 Multidimensional Arrays
+Book page: 129 Multidimensional Arrays
