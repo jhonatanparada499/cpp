@@ -20,29 +20,14 @@ using std::string;
 using std::vector;
 
 int main() {
-  int a[] = {1, 2, 3};
-  char chars1[] = "Hello world";
-  char chars2[] = "Hello aorld";
+  int ia[3][4];
 
-  if (strcmp(chars1, chars2) > 0) {
-    cout << "s1 > s2";
-  }
-
-  return 0;
-
-  int *pbeg = begin(a);
-  int *pend = end(a);
-
-  int *np = pbeg + 10;
-
-  cout << *np << endl;
-
-  while (pbeg != pend && *pbeg >= 0) {
-    cout << *pbeg << endl;
-    ++pbeg;
-  }
-
-  // decltype(a) b = {};
+  size_t cnt = 0;
+  for (auto &row : ia)
+    for (auto &col : row) {
+      col = cnt;
+      ++cnt;
+    }
 
   return 0;
 }
