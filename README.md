@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 122 Subscripts and Pointers
+Book page: 122 C-Style Character Strings
