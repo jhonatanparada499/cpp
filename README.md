@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 136 Overloaded Operators
+Book page: 137 Overloaded Operators
