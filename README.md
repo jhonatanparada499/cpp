@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 135 Type Aliases Simplify Pointers to Multidimensional Arrays
+Book page: 135 Overloaded Operators
