@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 145 Logical NOT Operator
+Book page: 146 Logical NOT Operator
