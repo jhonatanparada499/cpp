@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 156 The Bitwise Operators
+Book page: 156 The sizeof Operator
