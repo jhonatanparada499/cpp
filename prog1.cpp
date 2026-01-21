@@ -20,14 +20,10 @@ using std::string;
 using std::vector;
 
 int main() {
-  int ia[3][4];
+  int j;
 
-  size_t cnt = 0;
-  for (auto &row : ia)
-    for (auto &col : row) {
-      col = cnt;
-      ++cnt;
-    }
+  bool k = true;
+  string final_grade = 1 < 2 ? "pass" : "fail";
 
   return 0;
 }
