@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 154 The Bitwise Operators
+Book page: 155 The Bitwise Operators
