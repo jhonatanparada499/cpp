@@ -22,16 +22,14 @@ using std::string;
 using std::vector;
 
 int main() {
-  vector<int> integers(10);
-  vector<int>::size_type count = integers.size();
-
-  for (vector<int>::size_type i = 0; i != integers.size(); ++i, --count) {
-    integers[i] = count;
-  }
-
-  for (int integer : integers) {
-    cout << integer << endl;
-  }
-
+  int grade = 1;
+  string lettergrade;
+  if (grade % 10 >= 3)
+    if (grade % 10 > 7)
+      lettergrade += "+"; // grades ending in 8 or 9 get a +
+    //
+    else
+      lettergrade += "-";
   return 0;
+  ;
 }
