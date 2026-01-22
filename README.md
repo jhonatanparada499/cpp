@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 168 Explicit Conversions
+Book page: 169 Explicit Conversions
