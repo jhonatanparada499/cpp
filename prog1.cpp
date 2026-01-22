@@ -2,9 +2,11 @@
 
 #include <cctype>
 
+#include <cstddef>
 #include <cstring>
 
 #include <iostream>
+#include <ostream>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -20,10 +22,16 @@ using std::string;
 using std::vector;
 
 int main() {
-  int j;
+  vector<int> integers(10);
+  vector<int>::size_type count = integers.size();
 
-  bool k = true;
-  string final_grade = 1 < 2 ? "pass" : "fail";
+  for (vector<int>::size_type i = 0; i != integers.size(); ++i, --count) {
+    integers[i] = count;
+  }
+
+  for (int integer : integers) {
+    cout << integer << endl;
+  }
 
   return 0;
 }
