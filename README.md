@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 198 The default Label
+Book page: 199 The default Label
