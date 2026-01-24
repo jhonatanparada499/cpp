@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 204 Function Parameter List
+Book page: 204 Function Declarations
