@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <ostream>
+#include <stdexcept>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -21,15 +22,18 @@ using std::string;
 #include <vector>
 using std::vector;
 
+size_t count_calls() {
+  static size_t ctr;
+  return ++ctr;
+}
+
+// value will persist across calls
 int main() {
-  int grade = 1;
-  string lettergrade;
-  if (grade % 10 >= 3)
-    if (grade % 10 > 7)
-      lettergrade += "+"; // grades ending in 8 or 9 get a +
-    //
-    else
-      lettergrade += "-";
+  int i = 42;
+  int *p = &i;
+  const int *cp = p;
+
+  char args[] = "hello";
+
   return 0;
-  ;
 }
