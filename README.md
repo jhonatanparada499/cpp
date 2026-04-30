@@ -1,3 +1,3 @@
 # Notes from C++ Primer 5th Edition
 
-Book page: 522
+Book page: 523
