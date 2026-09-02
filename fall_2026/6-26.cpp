@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+void printArr(int const num[], int size){
+  for(int i=0; i < size; ++i){
+    cout << num[i] << endl;
+  }
+}
+
 void increment(int& num){
   num++;
 }
