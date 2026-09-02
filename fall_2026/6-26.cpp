@@ -26,7 +26,7 @@ int main(){
   cout << "After: " << x << endl;
 
   int num[3] = {1,2,3};
-  cout << num[1] << endl;
+  printArr(num, 3);
 
   return 0;
 }
