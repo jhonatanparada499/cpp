@@ -21,6 +21,10 @@ int main(){
   int x = 5;
   cout << "Before: " << x << endl;
 
+  int *y;
+  y = new int;
+  delete y;
+
   increment(x);
 
   cout << "After: " << x << endl;
