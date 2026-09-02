@@ -19,5 +19,8 @@ int main(){
 
   cout << "After: " << x << endl;
 
+  int num[3] = {1,2,3};
+  cout << num[1] << endl;
+
   return 0;
 }
