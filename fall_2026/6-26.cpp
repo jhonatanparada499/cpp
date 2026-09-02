@@ -1,9 +1,7 @@
-// pass by val
-//
 #include <iostream>
 using namespace std;
 
-void increment(int num){
+void increment(int& num){
   num++;
 }
 
